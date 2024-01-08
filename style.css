@@ -1,0 +1,90 @@
+
+.header{
+    position: relative;
+    
+
+    width: 1320px;
+height: 600px;
+
+
+}
+.header img{
+    width: 100%;
+    height: auto;
+    display: block;
+    /* opacity: 300%; */
+    border-radius: 16px;
+    background: linear-gradient(180deg, #05000e 0%, rgba(19, 18, 20, 0) 100%);
+
+
+
+}
+
+.banner-text{
+    position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;    
+}
+
+.banner-title{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.banner-headtext{
+    color: #FFF;
+    text-align: center;
+   font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px; /* 131.944% */
+
+}
+
+.off{    
+    text-align: center;
+}
+.off h2{
+    color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+.off p{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.off h4{
+    color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 5px;;
+}
+
