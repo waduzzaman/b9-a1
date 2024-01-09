@@ -1,7 +1,7 @@
 
 
-.container {
-    position: relative;
+.header-container {
+    /* position: relative; */
     width: 1320px;
     height: 600px;
     margin: auto;
@@ -370,48 +370,57 @@ flex-shrink: 0;
 }
 
 .discount-with-image {
+   
+    width: 1320;
+    margin: auto;
     position: relative;
-    top: 0;
-    left: 0;
+ 
 
 }
 
-.discount-with-image img {
-    width: auto;
-    height: auto;
-}
-
-.image4 {
-    position: relative;
+.image3 {
+   
+    border-color: rgb(63, 27, 221);
+    position: absolute;      
+    left: 30px;
     top: 0;
-    left: 0;
-
 }
 
 .image3 {
     position: absolute;
     top: 30px;
-    left: 30px;
-
+    left: 0;
 }
 
 
 .image2 {
-    position: absolute;
-    top: 30px;
-    left: 500px;
+    position: relative;
+    top: 10;
+    left: 300px;
+    bottom: 50;
 
 }
 
 .image1 {
     position: relative;
     top: 30px;
-    left: 700px;
+    left:890px;
+    margin-bottom: 25px;
 
 }
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* Portfolio Section */
 .portfolio {
-    display: block;
+    margin-top: 5%;
+    margin-bottom: 120px;
+    width: 1320px;
+    margin: auto;
 }
 
 .products {
@@ -420,61 +429,54 @@ flex-shrink: 0;
     justify-content: space-between;
 }
 
+.products img {
+    flex-basis: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
 .portfolio-text {
-    width: 896PX;
+    width: 100%;
+    max-width: 896px;
 }
 
 .portfolio-text h4 {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
 }
 
 .portfolio-text h3 {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
-
 }
 
 .portfolio-text p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    /* 160% */
 }
 
-.products img {
-    flex-basis: calc(33.33% - 10px);
-    margin-bottom: 20px;
-    box-sizing: border-box;
-    background-color: #f0f0f0;
-
-}
-
-
+/* Newsletter Section */
 .newsletter {
     margin-top: 120px;
-    margin-bottom: 120px;
-    height: 500px;
-    display: block;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    width: 1320px;
+    margin: auto;
     border-radius: 16px;
-    background: rgba(255, 0, 0, 0.05);
+background: rgba(255, 0, 0, 0.05);
+margin-bottom: 120px;
+padding-bottom: 20px;
+}
 
+.newsletter-contents{
+    text-align: center;
 }
 
 .newsletter-contents h3 {
@@ -482,139 +484,101 @@ flex-shrink: 0;
     text-align: center;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
-
 }
 
 .newsletter-contents p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
+
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
 }
 
-
 .email-button {
     width: 648px;
     height: 72px;
-    flex-shrink: 0;
     border-radius: 50px;
     background: #FFF;
-    margin: auto;
-    flex-flow: column;
+    margin: auto; 
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+    flex-direction: row;
+    justify-content: space-evenly; 
+    align-items: flex-end; 
 
 }
 
-.email-button input {
-    border: none;
-    text-align: left;
+input{
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 200px;
+    border-color: transparent;
+    margin-bottom: 25px;
+    
+
 }
+
+/* .email-input {
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+} */
 
 .btn-subscribe {
     width: 210px;
-    height: 72px;
-    flex-shrink: 0;
-    border-radius: 0px 50px 50px 0px;
-    background: #F00;
-    margin-left: auto;
-    vertical-align: auto;
+    margin-top: 25px;
+height: 72px;
+flex-shrink: 0;
+position: sticky;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+color: white;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+margin-left: 300px;
+border-color: transparent;
 }
 
+/* Footer Section */
 footer {
+    margin: auto;
     padding: 10px;
     background: #070211;
     color: white;
     text-align: center;
-
 }
 
+.contact-section{
+width: 1320px;
+}
 .address {
     display: flex;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 40px;
-    /* 166.667% */
+    flex-wrap: wrap;
 }
 
-.address-text {
+.address > * {
     flex: 1;
+    width: 50%;
+    box-sizing: border-box;
 }
 
-.phone-web {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 40px;
-    /* 166.667% */
-}
-
-.phone,
-.web {
-    display: flex;
-    align-items: center;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 40px;
-    /* 166.667% */
-}
-
-.phone img,
-.web img {
-    margin-right: 10px;
-}
-
-.copyright {
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.allright {
-    flex: 1;
-    text-align: start;
-    padding-left: 10px;
-
-    color: #FFF;
-
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-
-.unsubscribe {
-    flex: 1;
-    text-align: end;
-    padding-right: 10px;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
 
 hr {
     background: rgba(255, 255, 255, 0.15);
