@@ -1,12 +1,9 @@
 
-
 .header-container {
     /* position: relative; */
     width: 1320px;
     height: 600px;
     margin: auto;
-
-
 }
 
 .banner-container img {
@@ -107,8 +104,6 @@ flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    
-
 
 
 }
@@ -117,9 +112,17 @@ flex-shrink: 0;
     width: 100%;
     height: auto;
     display: block;
-    /* opacity: 300%; */
+ 
     border-radius: 16px;
     background: linear-gradient(180deg, #05000e 0%, rgba(19, 18, 20, 0) 100%);
+}
+
+#party-image{
+    position: absolute;
+    width: 280px; 
+    margin-left: 900px; 
+    
+    background-color: transparent;
 }
 
 .party-container-text {
@@ -217,11 +220,7 @@ flex-shrink: 0;
     height: 735px;
     margin: auto;
     display: flex;
-    /* align-content: flex-start; */
-    /* justify-content: space-evenly; */
-
-
-
+    
 }
 
 
@@ -525,16 +524,6 @@ input{
 
 }
 
-/* .email-input {
-    color: rgba(7, 2, 17, 0.30);
-    text-align: center;
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    
-} */
 
 .btn-subscribe {
     width: 210px;
@@ -563,14 +552,23 @@ footer {
     background: #070211;
     color: white;
     text-align: center;
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    
 }
 
 .contact-section{
 width: 1320px;
+margin: auto;
 }
 .address {
     display: flex;
-    flex-wrap: wrap;
+  
+    
 }
 
 .address > * {
@@ -579,12 +577,62 @@ width: 1320px;
     box-sizing: border-box;
 }
 
+.phone-web{
+    margin-left: 500px;
+}
+
+.phone {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.phone img {
+    margin-right: 10px; 
+}
+
+.phone p {
+    margin: 0; 
+}
+
+.web {
+    display: flex;
+    align-items: center;
+}
+
+.web img {
+    margin-right: 10px; 
+}
+
+.web p {
+    margin: 0; 
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1320px; 
+    margin: auto; 
+}
+
+.all-right, .unsubscribe {
+    margin: 0; 
+}
+
+.social-media{
+   padding-top: 20px;
+   padding-bottom: 20px;  
+    
+}
+
+
 
 hr {
-    background: rgba(255, 255, 255, 0.15);
+    background-color: #292828;
     width: 1320px;
-    height: 1px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    height: 1px;   
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
